@@ -1,0 +1,26 @@
+.MY {
+  margin-top: 90px;
+  margin-left: 450px;
+}
+.imh {
+  height: 100px;
+  width: 100px;
+  margin-left: 125px;
+  margin-top: 100px;
+}
+.langim {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  border: 2px;
+}
+.imh:hover {
+  filter: drop-shadow(1px 1px 20px rgb(68, 17, 223));
+}
+.imgh {
+  margin-left: 570px;
+  margin-top: 29px;
+}
+.imgh:hover {
+  filter: drop-shadow(1px 1px 20px rgb(68, 17, 223));
+}

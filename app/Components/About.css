@@ -1,0 +1,49 @@
+h1 {
+  margin-left: 250px;
+  margin-top: 250px;
+  font-size: 50px;
+  word-spacing: 18px;
+}
+.paragh {
+  margin-top: 50px;
+  margin-left: 280px;
+  font-size: 27px;
+  font-weight: bold;
+}
+.para {
+  margin-left: 250px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+.EXp {
+  margin-top: 50px;
+  margin-left: 280px;
+  font-size: 40px;
+}
+.exper {
+  font-weight: bold;
+  margin-left: 300px;
+  margin-top: 50px;
+}
+.imge {
+  height: 300px;
+  width: 250px;
+  margin-left: 950px;
+  margin-top: -250px;
+  border-radius: 70px;
+  filter: drop-shadow(1px 1px 20px #fff);
+  transition: all 3s;
+}
+.imge:hover {
+  width: 300px;
+  height: 320px;
+  filter: drop-shadow(1px 1px 20px orange);
+  margin-left: 900px;
+}
+.imje {
+  height: 300px;
+  width: 250px;
+  margin-top: -350px;
+  margin-left: 40px;
+  border-radius: 50px;
+}

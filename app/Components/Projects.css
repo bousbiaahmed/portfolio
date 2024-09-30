@@ -1,0 +1,38 @@
+.Project {
+  font-size: 50px;
+  margin-left: 400px;
+  margin-top: 170px;
+  font-weight: bold;
+}
+.fron {
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 250px;
+}
+.imsite {
+  height: 300px;
+  width: 400px;
+  margin-left: 800px;
+  margin-top: -220px;
+  border-radius: 70px;
+}
+
+.ecom {
+  font-weight: bold;
+  margin-top: 100px;
+  margin-left: 250px;
+}
+
+.imsite2 {
+  height: 300px;
+  width: 400px;
+  border-radius: 70px;
+  margin-left: 800px;
+  margin-top: -230px;
+}
+.imsite2:hover {
+  filter: drop-shadow(1px 1px 20px #fff);
+}
+.imsite:hover {
+  filter: drop-shadow(1px 1px 20px #fff);
+}

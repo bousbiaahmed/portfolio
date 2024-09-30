@@ -1,0 +1,10 @@
+.social-links {
+  margin-left: 250px;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  height: 50px;
+  width: 170px;
+  background: #fff;
+  border-radius: 20px;
+}

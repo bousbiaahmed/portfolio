@@ -1,0 +1,35 @@
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 800px;
+
+  padding: 10px;
+}
+
+.nav-links {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  margin-right: 0px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  padding: 10px 20px;
+  display: block;
+}
+
+.nav-links a:hover {
+  border-bottom: 6px solid orange;
+}
+.home {
+  transition: all 1s ease;
+}
+.home:hover {
+  color: orange;
+}
