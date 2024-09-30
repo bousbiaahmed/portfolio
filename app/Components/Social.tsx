@@ -1,7 +1,5 @@
 import React from "react";
-import linked from "./linked.png";
-import insta from "./insta.png";
-import face from "./face.png";
+
 import "./Social.css";
 
 const SocialLinks: React.FC = () => {

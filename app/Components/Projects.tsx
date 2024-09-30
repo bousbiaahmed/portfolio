@@ -1,6 +1,5 @@
 import "./Projects.css";
-import site from "/site.png";
-import site2 from "/site2.png";
+
 
 function Projects() {
   return (
@@ -16,7 +15,7 @@ function Projects() {
         This experience helped me improve my front-end skills <br />
         <br />
         and allowed me to bring my design ideas to life <br /> <br />
-        I'm pleased with the final result!
+        I`&apos;`m pleased with the final result!
       </p>
       <a href="" target="_blank">
         <img src="site.png" alt="Description de l'image" className="imsite" />
