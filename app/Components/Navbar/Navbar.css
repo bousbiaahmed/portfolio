@@ -1,35 +1,89 @@
+
 .navbar {
-  position: fixed;
+  position: fixed; 
   top: 0;
-  left: 800px;
-  padding: 10px;
+  right: 0; 
   background: rgb(6, 6, 6);
+  width: 100%; /* Prend toute la largeur */
+  display: flex;
+  justify-content: flex-end; /* Espace à droite */
+  align-items: center; /* Centre verticalement */
+  z-index: 1000; /* Assure que la barre est au-dessus des autres éléments */
 }
 
+/* Icône du menu hamburger */
+.menu-icon {
+  display: none; /* Caché par défaut sur les écrans larges */
+  flex-direction: column; /* Empile les lignes pour l'icône */
+  cursor: pointer; /* Change le curseur en pointeur */
+}
+
+/* Lignes de l'icône du menu */
+.line {
+  width: 25px; /* Largeur de chaque ligne */
+  height: 3px; /* Hauteur de chaque ligne */
+  background-color: white; /* Couleur des lignes */
+  margin: 3px 0; /* Espace entre les lignes */
+  transition: 0.3s; /* Transition douce pour l'animation */
+}
+
+/* Styles pour les liens de navigation */
 .nav-links {
-  display: flex;
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  display: flex; /* Affiche les liens en ligne par défaut */
+  list-style-type: none; /* Enlève les puces */
+  margin: 0; /* Enlève la marge par défaut */
+  padding: 0; /* Enlève le remplissage par défaut */
 }
 
 .nav-links li {
-  margin-right: 0px;
+  margin-right: 20px; /* Espace entre les éléments */
 }
 
 .nav-links a {
-  color: white;
-  text-decoration: none;
-  padding: 10px 20px;
-  display: block;
+  color: white; /* Couleur des liens */
+  text-decoration: none; /* Enlève le soulignement */
+  padding: 10px 20px; /* Espace autour du texte */
+  display: block; /* Permet le remplissage sur toute la zone cliquable */
+  transition: color 0.3s; /* Transition douce pour la couleur */
 }
 
+/* Effet de survol pour les liens */
 .nav-links a:hover {
-  border-bottom: 6px solid orange;
+  border-bottom: 6px solid orange; /* Soulignement orange lors du survol */
 }
+
+/* Effet de changement de couleur pour les liens */
 .home {
-  transition: all 1s ease;
+  transition: all 1s ease; /* Transition douce pour tous les effets */
 }
+
 .home:hover {
-  color: orange;
+  color: orange; /* Change la couleur lors du survol */
+}
+
+/* Styles pour le menu hamburger sur mobile */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none; /* Cacher les liens de navigation par défaut */
+    flex-direction: column; /* Les liens en colonne */
+    position: absolute; /* Positionnement absolu par rapport à la barre */
+    top: 50px; /* Positionnement juste en dessous de la barre */
+    right: 0; /* Alignement à droite */
+    background: rgb(6, 6, 6);
+    width: 100%; /* Prend toute la largeur */
+    z-index: 1; /* Assure que le menu est au-dessus */
+  }
+
+  .nav-links.open {
+    display: flex; /* Affiche les liens quand le menu est ouvert */
+  }
+
+  .menu-icon {
+    display: flex;
+   /* Affiche l'icône du menu hamburger sur mobile */
+  }
+
+  .line.open {
+    background-color: orange; /* Change la couleur des lignes quand le menu est ouvert */
+  }
 }

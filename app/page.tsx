@@ -40,7 +40,7 @@ function Home() {
         <section id="skills">
         <Skills />
         </section>
-        <section id="projrcts">
+        <section id="projects">
         <Projects />
         </section>
         <section id="contact">
