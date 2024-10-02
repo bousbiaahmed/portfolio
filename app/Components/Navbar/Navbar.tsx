@@ -1,6 +1,10 @@
+
 import "./Navbar.css";
-function Navbar() {
-  return (
+
+    function Navbar() {
+    
+   return (
+    
     <nav className="navbar">
       <ul className="nav-links">
         <li>
@@ -19,13 +23,14 @@ function Navbar() {
           </a>
         </li>
         <li>
-          <a className="home" href="#contact">
-            Contact
+        <a className="home" href="#projrcts">
+        Projects
+           
           </a>
         </li>
         <li>
-          <a className="home" href="#projrcts">
-            Projects
+        <a className="home" href="#contact">          
+        Contact
           </a>
         </li>
       </ul>

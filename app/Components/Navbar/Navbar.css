@@ -2,8 +2,8 @@
   position: fixed;
   top: 0;
   left: 800px;
-
   padding: 10px;
+  background: rgb(6, 6, 6);
 }
 
 .nav-links {

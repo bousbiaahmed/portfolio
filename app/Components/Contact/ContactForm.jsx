@@ -1,8 +1,10 @@
 "use client";
-import React from "react";
+import React, { useRef } from "react";
 import "./ContactForm.css";
 
 const ContactForm = () => {
+  const formRef = useRef(null); // Référence pour le formulaire
+
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
@@ -24,6 +26,7 @@ const ContactForm = () => {
 
       if (res.success) {
         console.log("Success", res);
+        formRef.current.reset(); // Efface les champs du formulaire
       } else {
         console.error("Submission failed", res);
       }
@@ -34,8 +37,8 @@ const ContactForm = () => {
 
   return (
     <section className="contact">
-      <form onSubmit={onSubmit} className="contact-form ">
-        <h2>Contact Form</h2>
+      <form ref={formRef} onSubmit={onSubmit} className="contact-form">
+        <h2>Contact Me</h2>
         <div className="input-box">
           <label>Full Name</label>
           <input

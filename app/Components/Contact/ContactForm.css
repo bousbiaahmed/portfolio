@@ -76,3 +76,10 @@ button:hover {
   margin-left: 470px;
   margin-top: 300px;
 }
+@media (max-width: 480px) {
+  .contact-form{
+    height: 450px;
+    width: 200px;
+    margin-top: 150px;
+  }
+}

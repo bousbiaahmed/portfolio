@@ -1,11 +1,11 @@
 import React from "react";
-import Navbar from "./Components/Navbar";
 import styles from "./page.module.css";
-import SocialLinks from "./Components/Social";
-import About from "./Components/About";
-import Skills from "./Components/Skills";
-import Projects from "./Components/Projects";
-import ContactForm from "./Components/ContactForm";
+import Navbar from "./Components/Navbar/Navbar";
+import About from "./Components/About/About";
+import Skills from "./Components/Skills/Skills";
+import Projects from "./Components/Projet/Projects";
+import ContactForm from "./Components/Contact/ContactForm";
+import SocialLinks from "./Components/Social/Social";
 
 function Home() {
   return (
@@ -29,27 +29,24 @@ function Home() {
           thrive on creating efficient solutions that deliver exceptional user
           experiences💻!
         </p>
-        <section>
-          <div className={styles.bgpulse}>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-          </div>
-        </section>
+       
         <img src="/imaje.png" className={styles.image} />
         <Navbar />
-        <SocialLinks />
+         <SocialLinks/> 
+        
+        <section id="about">
         <About />
+        </section>
+        <section id="skills">
         <Skills />
+        </section>
+        <section id="projrcts">
         <Projects />
+        </section>
+        <section id="contact">
         <ContactForm />
+        </section>
+        
       </div>
     </body>
   );

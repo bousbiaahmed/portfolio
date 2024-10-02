@@ -1,11 +1,9 @@
 import "./About.css";
-
-
 function About() {
   return (
     <div>
-      <h1> Discover My Journey! </h1>
-      <p className="paragh">&quot; THE ACADEMIC PATHWAY💻 &quot;</p>
+      <h1 className="DIS"> Discover My Journey! </h1>
+     
       <p className="para">
         At just 20 years old, I&quot;m a driven Computer Science student <br />{" "}
         <br />
@@ -22,7 +20,7 @@ function About() {
         <br />I excel at turning abstract ideas into refined solutions and
         engaging digital experiences.
       </p>
-      <h1 className="EXp">&quot; EXPERIANCES🌟 &quot;</h1>
+      <h1 className="EXp">EXPERIANCES🌟 </h1>
       <p className="exper">
         In the dynamic landscape of software development and innovation <br />{" "}
         <br />

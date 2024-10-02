@@ -13,6 +13,7 @@
   justify-content: space-between;
   flex-direction: row;
   border: 2px;
+  margin-left: -10px;
 }
 .imh:hover {
   filter: drop-shadow(1px 1px 20px rgb(68, 17, 223));
@@ -23,4 +24,26 @@
 }
 .imgh:hover {
   filter: drop-shadow(1px 1px 20px rgb(68, 17, 223));
+}
+@media (max-width: 480px) {
+  .MY{
+    font-size: 15px;
+    margin-left: 110px;
+    margin-top: 90px;
+    color: bisque;
+  }
+  .langim {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
+    gap: 10px; /* Espacement entre les images */
+    margin-left: 20px;
+  }
+  .imh{
+    margin-top: 50px;
+    margin-left: 20px;
+    
+
+  }
+
+
 }
