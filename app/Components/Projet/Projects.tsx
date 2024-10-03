@@ -35,7 +35,7 @@ function Projects() {
         <br />
         while delivering a functional online shopping platform!
       </p>
-      <a href="" target="_blank">
+      <a href="https://dynamic-gelato-066c88.netlify.app/" target="_blank">
         <img src="site2.png" alt="Description de l'image" className="imsite2" />
       </a>
     </div>

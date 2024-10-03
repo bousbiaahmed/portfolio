@@ -22,10 +22,9 @@ function Navbar() {
   const handleLinkClick = (e: React.MouseEvent<HTMLAnchorElement>, target: string) => {
     e.preventDefault(); // Empêche le comportement par défaut
     if (target === '/') {
-      // Si c'est le lien vers la page principale, redirige
       window.location.href = target;
     } else {
-      // Pour les autres sections, fait défiler
+
       smoothScroll(target);
     }
     setIsOpen(false); // Ferme le menu hamburger

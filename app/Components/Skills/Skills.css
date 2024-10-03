@@ -41,6 +41,7 @@
   .imh{
     margin-top: 50px;
     margin-left: 20px;
+    filter: drop-shadow(1px 1px 20px rgb(68, 17, 223));
     
 
   }
