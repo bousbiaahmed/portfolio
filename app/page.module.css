@@ -1,14 +1,11 @@
-.body {
-  margin: 0;
-  padding: 0;
-  background: #ece8e8;
-  scroll-behavior: smooth;
-}
 
 .pres {
   margin-top: 40px;
   margin-left: 250px;
   font-size: 30px;
+}
+.page{
+  background-color: black;
 }
 
 .presen {
@@ -23,25 +20,76 @@
   font-family: Arial, sans-serif;
   color: #2c3e50;
 }
-
-
 .image {
   height: 400px;
   width: 250px;
   margin-left: 950px;
   margin-top: -350px;
   filter: drop-shadow(1px 1px 20px chocolate);
+  animation: ahmeddd 3s ease-in-out;
 }
+
+@keyframes ahmeddd {
+  0% {
+    transform: translateX(100%);
+    opacity: 0; 
+  }
+  100% {
+    transform: translateX(0); 
+    opacity: 1; 
+  }
+}
+@keyframes slideY {
+  0% {
+    transform: translateY(100%); /* Commence en bas de l'écran */
+    opacity: 0; /* Cacher la section */
+  }
+  100% {
+    transform: translateY(0); /* Atteint la position normale */
+    opacity: 1; /* Rendre visible la section */
+  }
+}
+
+.animation {
+  animation: slideY 3s ease-out forwards; /* Animation de 3s */
+}
+
+
+
+
+
+
+
+
 .Hi {
   color: chocolate;
   margin-left: 250px;
   margin-top: 100px;
+  
+}
+.span {
+  display: inline-block;
+  animation: fadeInMove 2s ease-in-out infinite;
+  color: #e74c3c;
+}
+
+@keyframes fadeInMove {
+  0% {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 0;
+  }
 }
 @media (max-width: 480px) {
-  .body {
-    margin: 0;
-    padding: 0;
-    background-color: #f8f3f3;}
+ .page{
+  background-color: black;
+ }
 
     .Hi{
       font-size: 20px;
@@ -63,8 +111,11 @@
       width: 180px;
       margin-top: 100px;
     }
-
-
-
+    
 
 }
+
+
+
+
+

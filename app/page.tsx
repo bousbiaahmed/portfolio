@@ -11,8 +11,9 @@ function Home() {
   return (
     <body className={styles.body}>
       <div className={styles.page}>
-        <main className={styles.main}></main>
+        <main className={styles.main1}></main>
         <title>ahmed</title>
+        <div className="animation">
         <h1 className={styles.Hi}>
           Hi, <br /> Dreamers! 💭 👋
         </h1>
@@ -28,7 +29,7 @@ function Home() {
           using MongoDB, Express, React, and Node.js <br /> <br />
           thrive on creating efficient solutions that deliver exceptional user
           experiences💻!
-        </p>
+        </p></div>
        
         <img src="/imaje.png" className={styles.image} />
         <Navbar />
@@ -46,11 +47,13 @@ function Home() {
         <section id="contact">
         <ContactForm />
         </section>
+
+        
         
       </div>
-       <div className="bg"></div>
-       <div className="bg bg2"></div>
-       <div className="bg bg3"></div>
+
+     
+      
 
     </body>
   );

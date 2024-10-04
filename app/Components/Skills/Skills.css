@@ -1,50 +1,42 @@
 .MY {
-  margin-top: 90px;
+  margin-top: 130px;
   margin-left: 450px;
 }
-.imh {
-  height: 100px;
-  width: 100px;
-  margin-left: 125px;
-  margin-top: 100px;
-}
-.langim {
+.imageGallery {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  border: 2px;
-  margin-left: -10px;
+  margin-top: 2%;
+  gap: 50px; /* Space between images */
+  justify-content: center;
+  cursor: pointer;
+  transition: transform 5s ease;
+  flex-wrap: wrap; /* To wrap images on smaller screens */
+  
 }
-.imh:hover {
-  filter: drop-shadow(1px 1px 20px rgb(68, 17, 223));
-}
-.imgh {
-  margin-left: 570px;
-  margin-top: 29px;
-}
-.imgh:hover {
-  filter: drop-shadow(1px 1px 20px rgb(68, 17, 223));
-}
+.imageh {
+  width: 140px; 
+  height: auto;
+  border-radius: 10px;
+  filter: drop-shadow(1px 1px 20px rgb(88, 122, 235));
+  transition: transform 0.7s ease-in-out;
+  }
+
 @media (max-width: 480px) {
   .MY{
     font-size: 15px;
     margin-left: 110px;
-    margin-top: 90px;
+    margin-top: 120px;
     color: bisque;
   }
-  .langim {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
-    gap: 10px; /* Espacement entre les images */
-    margin-left: 20px;
+  .imageGallery{
+    margin-top: 50px;
   }
-  .imh{
+  .imageh{
     margin-top: 50px;
     margin-left: 20px;
-    filter: drop-shadow(1px 1px 20px rgb(68, 17, 223));
+    filter: drop-shadow(1px 1px 20px rgb(88, 122, 235));
     
 
   }
-
+ 
 
 }

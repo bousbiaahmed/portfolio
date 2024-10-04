@@ -38,7 +38,12 @@ const ContactForm = () => {
   return (
     <section className="contact">
       <form ref={formRef} onSubmit={onSubmit} className="contact-form">
-        <h2>Contact Me</h2>
+        <h1 className="con">Contact Me</h1>
+        <h2 className="H2">📞+216 23258073 <br />
+         ✉️ bousbiaa213@gmai.com <br />
+      📍zaghouan Hamem Zriba 1152
+           
+        </h2>
         <div className="input-box">
           <label>Full Name</label>
           <input
