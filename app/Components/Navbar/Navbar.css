@@ -16,6 +16,7 @@
   display: none; /* Caché par défaut sur les écrans larges */
   flex-direction: column; /* Empile les lignes pour l'icône */
   cursor: pointer; /* Change le curseur en pointeur */
+  background: rgb(6, 6, 6);
 }
 
 /* Lignes de l'icône du menu */
@@ -80,6 +81,7 @@
 
   .menu-icon {
     display: flex;
+    background: rgb(6, 6, 6);
    /* Affiche l'icône du menu hamburger sur mobile */
   }
 
