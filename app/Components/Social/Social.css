@@ -14,18 +14,18 @@
     .ins{
       height: 30px;
       width: 30px;
-      background-color: rgb(8, 0, 0);
+      background-color: #fff;
           
     }
   .fac{
     height: 30px;
       width: 30px;
-      background-color: black;
+      background-color:#fff;
   }
   .lin{
     height: 30px;
       width: 30px;
-      background-color: rgb(10, 9, 9);
+      background-color: #fff;
   
   }
   
@@ -42,18 +42,18 @@
   .ins{
     height: 30px;
     width: 30px;
-    background-color: black;
+    background-color: #fff;
         
   }
 .fac{
   height: 30px;
     width: 30px;
-    background-color: black;
+    background-color:#fff;
 }
 .lin{
   height: 30px;
     width: 30px;
-    background-color: black;
+    background-color: #fff;
 
 }
 

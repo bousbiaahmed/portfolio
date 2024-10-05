@@ -11,6 +11,7 @@
   transition: transform 5s ease;
   flex-wrap: wrap; /* To wrap images on smaller screens */
   
+  
 }
 .imageh {
   width: 140px; 
