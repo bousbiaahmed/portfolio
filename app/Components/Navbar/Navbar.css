@@ -12,6 +12,7 @@
   
 }
 
+
 /* Icône du menu hamburger */
 .menu-icon {
   display: none; /* Caché par défaut sur les écrans larges */
@@ -69,9 +70,9 @@
     display: none; /* Cacher les liens de navigation par défaut */
     flex-direction: column; /* Les liens en colonne */
     position: absolute; /* Positionnement absolu par rapport à la barre */
-    top: 50px; /* Positionnement juste en dessous de la barre */
+    top: 25px; /* Positionnement juste en dessous de la barre */
     right: 0; /* Alignement à droite */
-    background: rgb(6, 6, 6);
+    background: rgb(10, 0, 0);
     width: 100%; /* Prend toute la largeur */
     z-index: 1; /* Assure que le menu est au-dessus */
   }
