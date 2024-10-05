@@ -11,7 +11,7 @@ function Home() {
   return (
     <body className={styles.body}>
       <div className={styles.page}>
-        <main className={styles.main1}></main>
+         
         <title>ahmed</title>
         <div className="animation">
         <h1 className={styles.Hi}>
@@ -51,6 +51,20 @@ function Home() {
         
         
       </div>
+      <div className={styles.area} >
+            <ul className={styles.circles}>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+            </ul>
+    </div >
 
      
       

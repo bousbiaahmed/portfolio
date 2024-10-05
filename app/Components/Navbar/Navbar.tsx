@@ -39,12 +39,12 @@ function Navbar() {
         <div className={`line ${isOpen ? 'open' : ''}`}></div>
       </div>
       <ul className={`nav-links ${isOpen ? 'open' : ''}`}>
-        <li>
+        
           <a className="home" href="/" onClick={(e) => handleLinkClick(e, '/')}>
             Home
           </a>
-        </li>
-        <li>
+      
+        
           <a 
             className="home" 
             href="#about"  
@@ -52,8 +52,8 @@ function Navbar() {
           >
             About
           </a>
-        </li>
-        <li>
+        
+        
           <a 
             className="home" 
             href="#skills"  
@@ -61,8 +61,7 @@ function Navbar() {
           >
             Skills
           </a>
-        </li>
-        <li>
+       
           <a 
             className="home" 
             href="#projects"  
@@ -70,8 +69,8 @@ function Navbar() {
           >
             Projects
           </a>
-        </li>
-        <li>
+       
+       
           <a 
             className="home" 
             href="#contact"  
@@ -79,7 +78,7 @@ function Navbar() {
           >          
             Contact
           </a>
-        </li>
+     
       </ul>
     </nav>
   );

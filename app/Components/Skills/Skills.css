@@ -16,7 +16,7 @@
   width: 140px; 
   height: auto;
   border-radius: 10px;
-  filter: drop-shadow(1px 1px 20px rgb(88, 122, 235));
+  filter: drop-shadow(1px 1px 20px rgb(197, 114, 5));
   transition: transform 0.7s ease-in-out;
   }
 
@@ -33,7 +33,7 @@
   .imageh{
     margin-top: 50px;
     margin-left: 20px;
-    filter: drop-shadow(1px 1px 20px rgb(88, 122, 235));
+    filter: drop-shadow(1px 1px 20px rgb(227, 124, 21));
     
 
   }
