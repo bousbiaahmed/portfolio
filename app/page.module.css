@@ -5,7 +5,10 @@
   font-size: 30px;
 }
 .page{
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(8, 7, 7, 0.5);
+  height: 4100px;
+  padding-top: 10px;
+  
 }
 
 .presen {
