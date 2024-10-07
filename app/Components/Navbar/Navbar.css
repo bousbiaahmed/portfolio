@@ -74,7 +74,7 @@
     top: 25px; /* Positionnement juste en dessous de la barre */
     right: 0; /* Alignement à droite */
     background: rgb(10, 0, 0);
-    width: 100%; /* Prend toute la largeur */
+    width: 375px; /* Prend toute la largeur */
     z-index: 1; /* Assure que le menu est au-dessus */
   }
 
