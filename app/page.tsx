@@ -47,6 +47,14 @@ function Home() {
         <ContactForm />
         </section>
 
+        <div>
+    
+  </div>
+  <div  className={styles.back}>
+  <div className="wave"></div>
+     <div className="wave"></div>
+     <div className="wave"></div>
+     </div>
         
         
       </div>

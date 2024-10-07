@@ -4,11 +4,12 @@
   top: 0;
   right: 0; 
   background: rgb(7, 1, 1) ;
-  width: 100%; /* Prend toute la largeur */
+  width: 430px; /* Prend toute la largeur */
   display: flex;
   justify-content: flex-end; /* Espace à droite */
   align-items: center; /* Centre verticalement */
   z-index: 1000; /* Assure que la barre est au-dessus des autres éléments */
+  border-radius: 50px;
   
 }
 
