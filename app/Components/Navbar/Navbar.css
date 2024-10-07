@@ -3,7 +3,7 @@
   position: fixed; 
   top: 0;
   right: 0; 
-  background: rgb(7, 1, 1);
+  background: rgb(7, 1, 1) ;
   width: 100%; /* Prend toute la largeur */
   display: flex;
   justify-content: flex-end; /* Espace à droite */
