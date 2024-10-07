@@ -1,6 +1,6 @@
 import React from "react";
 import "./Social.css";
-import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faInstagram, faLinkedin, faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const SocialLinks: React.FC = () => {
@@ -18,7 +18,7 @@ const SocialLinks: React.FC = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-         <FontAwesomeIcon icon={faInstagram} className="ins" />
+         <FontAwesomeIcon icon={faSquareInstagram}  className="ins"/>
       </a>
       <a
         href="https://www.facebook.com/ahmed.bousbia.94"
