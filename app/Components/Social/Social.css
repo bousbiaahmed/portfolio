@@ -15,18 +15,23 @@
     .ins{
       height: 30px;
       width: 30px;
+      background-color: #fff;
       filter: drop-shadow(1px 1px 20px #fff);
+      border-radius: 10px;
           
     }
   .fac{
     height: 30px;
       width: 30px;
       filter: drop-shadow(1px 1px 20px #fff);
+      border-radius: 10px;
   }
   .lin{
     height: 30px;
       width: 30px;
       filter: drop-shadow(1px 1px 20px #fff);
+      border-radius: 13px;
+      background-color: #fff;
   
   }
   
@@ -34,7 +39,7 @@
 @media (max-width: 480px) {
   .social-links {
     
-    margin-left: 100px;
+    margin-left: 70px;
     margin-top: 30px;
       padding: 5px;
       cursor: pointer;

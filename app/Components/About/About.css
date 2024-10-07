@@ -1,5 +1,5 @@
 h1 {
-  margin-left: 250px;
+  margin-left: 300px;
   margin-top: 250px;
   font-size: 50px;
   word-spacing: 18px;
@@ -12,22 +12,26 @@ h1 {
   font-weight: bold;
 }
 .para {
-  margin-left: 250px;
+  margin-left:350px;
   margin-top: 50px;
   font-weight: bold;
   color: #fff;
+  width: 500px;
+  line-height: 2;
 }
 .EXp {
   margin-top: 50px;
-  margin-left: 280px;
+  margin-left: 400px;
   font-size: 40px;
   color: bisque;
 }
 .exper {
   font-weight: bold;
-  margin-left: 300px;
+  margin-left: 350px;
   margin-top: 50px;
   color: #fff;
+  width: 500px;
+line-height: 2;
 }
 .imge {
   height: 300px;
@@ -54,45 +58,52 @@ h1 {
 @media (max-width: 480px) {
 
   .DIS{
-    font-size: 15px;
+    font-size: 25px;
     color: bisque;
-   position: relative;
-   top: -80px;
-   left: -130px;
+     position: relative;
+       top: -220px;
+      left: -160px;
+      width: 200px;
   }
   .para{
-   font-size: 10px;
+   font-size: 13px;
    margin-left: 60px;
-   margin-top: 100px;
+   margin-top: -180px;
+   line-height:1.8 ;
+   width: 250px;
   }
   .EXp{
-    font-size: 15px;
-    margin-left: 110px;
+    font-size: 25px;
+    margin-left: 80px;
     color: bisque;
 
   }
   .exper{
-    font-size: 10px;
+    font-size: 13px;
      margin-left: 60px;
-     margin-top: 20px;
+     margin-top: 30px;
+     line-height:1.8;
+     width: 250px;
   }
   .imge{
-    height: 90px;
-    width: 90px;
-    margin-left: 60px;
+    height: 100px;
+    width: 100px;
+    margin-left: 70px;
     margin-top: 50px;
   }
+  .imge:hover{
+    
+    
+  }
+  
   .imje{
-    height: 90px;
-    width: 90px;
+    height: 100px;
+    width: 100px;
     border-radius: 70px;
     filter: drop-shadow(1px 1px 20px #fff);
 
   }
-  .para{
-    margin-top: -20px;
-    
-  }
+  
   .paragh{
     font-size: 15px;
     position: relative;

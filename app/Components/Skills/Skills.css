@@ -17,15 +17,15 @@
   width: 140px; 
   height: auto;
   border-radius: 10px;
-  filter: drop-shadow(1px 1px 20px rgb(197, 114, 5));
+  filter: drop-shadow(1px 1px 20px rgb(44, 103, 205));
   transition: transform 0.7s ease-in-out;
   }
 
 @media (max-width: 480px) {
   .MY{
-    font-size: 15px;
-    margin-left: 110px;
-    margin-top: 120px;
+    font-size: 25px;
+    margin-left: 90px;
+    margin-top: 90px;
     color: bisque;
   }
   .imageGallery{
@@ -35,6 +35,8 @@
     margin-top: 50px;
     margin-left: 20px;
     filter: drop-shadow(1px 1px 20px rgb(227, 124, 21));
+    width: 80px; 
+    height: 80px;
     
 
   }

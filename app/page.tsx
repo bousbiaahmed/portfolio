@@ -13,7 +13,7 @@ function Home() {
       <div className={styles.page}>
          
         <title>ahmed</title>
-        <div className="animation">
+        <div className={styles.animation}>
         <h1 className={styles.Hi}>
           Hi, <br /> Dreamers! 💭 👋
         </h1>
@@ -23,10 +23,9 @@ function Home() {
         <br />
         <p className={styles.presen}>
           {" "}
-          I am a passionate MERN stack developer specializing <br /> <br />
-          in building dynamic, scalable, and responsive web applications <br />{" "}
-          <br />
-          using MongoDB, Express, React, and Node.js <br /> <br />
+          I am a passionate MERN stack developer specializing 
+          in building dynamic, scalable, and responsive web applications {" "}
+          using MongoDB, Express, React, and Node.js 
           thrive on creating efficient solutions that deliver exceptional user
           experiences💻!
         </p></div>

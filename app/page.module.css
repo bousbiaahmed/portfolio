@@ -36,6 +36,8 @@
   margin-left: 250px;
   font-size: 18px;
 color: #fff;
+width: 500px;
+line-height: 2;
 }
 
 .pres {
@@ -54,7 +56,7 @@ color: #fff;
 
 @keyframes ahmeddd {
   0% {
-    transform: translateX(100%);
+    transform: translateX(1000px);
     opacity: 0; 
   }
   100% {
@@ -64,7 +66,7 @@ color: #fff;
 }
 @keyframes slideY {
   0% {
-    transform: translateY(100%); /* Commence en bas de l'écran */
+    transform: translateY(-1000px); /* Commence en bas de l'écran */
     opacity: 0; /* Cacher la section */
   }
   100% {
@@ -105,29 +107,30 @@ color: #fff;
 @media (max-width: 480px) {
  .page{
   background-color: rgb(15, 13, 13);
-  height: 5050px;
+  height: 3900px;
   padding-bottom: 20px;
  }
 
     .Hi{
-      font-size: 20px;
+      font-size: 25px;
       margin-left: 60px;
       margin-top:50px ;
     }
     .pres{
       margin-left: 60px; 
-      font-size: 20px;
+      font-size: 25px;
       margin-top: 15px;
     }
     .presen{
-      font-size: 10px;
+      font-size:13px;
       margin-left: 60px;
+      line-height: 1.8;
     }
     .image{
-      margin-left: 100px;
+      margin-left: 90px;
       height: 200px;
       width: 180px;
-      margin-top: 100px;
+      margin-top: 80px;
     }
     .area{
       background: #380dd5;  
@@ -259,7 +262,7 @@ color: #fff;
   }
 
   100%{
-      transform: translateY(-1000px) rotate(720deg);
+      transform: translateY(1000px) rotate(720deg);
       opacity: 0;
       border-radius: 50%;
   }
