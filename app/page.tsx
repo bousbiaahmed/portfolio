@@ -15,7 +15,7 @@ function Home() {
         <title>ahmed</title>
         <div className={styles.animation}>
         <h1 className={styles.Hi}>
-          Hi, <br /> Dreamers! 💭 👋
+          Hi, <br /> Innovators! 💭 👋
         </h1>
         <p className={styles.pres}>
           I am <span className={styles.span}>Ahmed Bousbia</span>
