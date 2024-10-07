@@ -15,7 +15,7 @@
     .ins{
       height: 30px;
       width: 30px;
-      background-color: #fff;
+      
       filter: drop-shadow(1px 1px 20px #fff);
       border-radius: 10px;
           
@@ -31,7 +31,7 @@
       width: 30px;
       filter: drop-shadow(1px 1px 20px #fff);
       border-radius: 13px;
-      background-color: #fff;
+     
   
   }
   

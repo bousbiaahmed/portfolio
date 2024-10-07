@@ -1,5 +1,7 @@
 import React from "react";
 import "./Social.css";
+import { faFacebook, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const SocialLinks: React.FC = () => {
   return (
@@ -9,21 +11,21 @@ const SocialLinks: React.FC = () => {
         target="_blank"
         rel="noopener noreferrer"
       >
-        <img src="linkeed.jpg" alt=""  className="lin" />
+      <FontAwesomeIcon icon={faLinkedin }  className="lin"/>
       </a>
       <a
         href="https://www.instagram.com/ahmedbousbia_534/"
         target="_blank"
         rel="noopener noreferrer"
       >
-       <img src="insta-logo.png" alt=""   className="ins"/>
+         <FontAwesomeIcon icon={faInstagram} className="ins" />
       </a>
       <a
         href="https://www.facebook.com/ahmed.bousbia.94"
         target="_blank"
         rel="noopener noreferrer"
       >
-       <img src="facek.png" alt=""  className="fac" />
+      <FontAwesomeIcon icon={faFacebook} className="fac" />
       </a>
     </div>
   );
