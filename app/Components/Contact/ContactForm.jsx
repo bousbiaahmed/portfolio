@@ -26,6 +26,8 @@ const ContactForm = () => {
 
       if (res.success) {
         console.log("Success", res);
+        alert("thank you !!!!!!");
+
         formRef.current.reset(); // Efface les champs du formulaire
       } else {
         console.error("Submission failed", res);
