@@ -39,6 +39,7 @@ line-height: 2;
 }
 .imsite2:hover {
   filter: drop-shadow(1px 1px 20px #fff);
+  transform: scale(1.2);
 }
 .imsite:hover {
   filter: drop-shadow(1px 1px 20px #fff);
