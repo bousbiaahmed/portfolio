@@ -98,4 +98,6 @@ const Skills = forwardRef<HTMLDivElement, SkillsProps>((props, ref) => {
   );
 });
 
+Skills.displayName = 'Skills';
+
 export default Skills;
