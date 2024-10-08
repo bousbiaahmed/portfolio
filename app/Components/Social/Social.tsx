@@ -1,6 +1,6 @@
 import React from "react";
 import "./Social.css";
-import { faFacebook, faInstagram, faLinkedin, faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook, faLinkedin, faSquareInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
 const SocialLinks: React.FC = () => {

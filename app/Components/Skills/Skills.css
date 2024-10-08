@@ -1,60 +1,60 @@
-/* Styles globaux pour le composant Skills */
+
 body {
-  background-color: #1a1a1a; /* Couleur de fond sombre */
-  color: #ffffff; /* Couleur du texte par défaut */
-  font-family: 'Arial', sans-serif; /* Police du texte */
+  background-color: #1a1a1a; 
+  color: #ffffff; 
+  font-family: 'Arial', sans-serif; 
 }
 
-/* Titre principal */
+
 h1 {
   font-weight: bold;
 }
 
-/* Styles pour les icônes de technologie */
+
 .tech-icons {
-  font-size: 3rem; /* Taille de l'icône */
-  color: #EAA16E; /* Couleur des icônes */
-  margin: 10px; /* Marge autour des icônes */
-  transition: transform 0.3s ease-in-out; /* Transition pour effet de zoom */
+  font-size: 3rem; 
+  color: #EAA16E;
+  margin: 10px;
+  transition: transform 0.3s ease-in-out; 
   height: 150px;
   width: 150px;
   margin-top: 100px;
   gap: 9px;
 }
 
-/* Effet de zoom au survol */
+
 .tech-icons:hover {
-  transform: scale(1.2); /* Augmenter la taille de l'icône au survol */
+  transform: scale(1.2); 
 }
 
-/* Styles pour le tooltip */
+
 .tooltip {
-  position: absolute; /* Positionnement absolu */
-  z-index: 10; /* Assure que le tooltip est au-dessus des autres éléments */
-  padding: 0.5rem 1rem; /* Espacement intérieur */
-  color: #CDCBD6; /* Couleur du texte du tooltip */
-  background-color: rgba(50, 50, 50, 0.8); /* Couleur de fond avec transparence */
-  border-radius: 0.5rem; /* Coins arrondis */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Ombre autour du tooltip */
-  font-size: 1.2rem; /* Taille de la police du tooltip */
+  position: absolute; 
+  z-index: 10;
+  padding: 0.5rem 1rem; 
+  color: #CDCBD6; 
+  background-color: rgba(50, 50, 50, 0.8); 
+  border-radius: 0.5rem; 
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); 
+  font-size: 1.2rem; 
 }
 
-/* Flèche du tooltip */
+
 .tooltip-arrow {
   position: absolute;
-  bottom: 100%; /* Positionne la flèche au-dessus du tooltip */
+  bottom: 100%; 
   left: 50%;
-  margin-left: -5px; /* Centre la flèche */
-  border-width: 5px; /* Taille de la flèche */
-  border-style: solid; /* Type de bordure */
-  border-color: transparent transparent rgba(50, 50, 50, 0.8) transparent; /* Couleur de la flèche */
+  margin-left: -5px; 
+  border-width: 5px; 
+  border-style: solid; 
+  border-color: transparent transparent rgba(50, 50, 50, 0.8) transparent; 
 }
 
-/* Styles pour le conteneur du Skills */
+
 .flex {
-  display: flex; /* Affichage flex pour aligner les éléments */
-  justify-content: center; /* Centre les éléments horizontalement */
-  flex-wrap: wrap; /* Permet aux éléments de passer à la ligne */
+  display: flex; 
+  justify-content: center; 
+  flex-wrap: wrap; 
 }
 .toolss{
 
