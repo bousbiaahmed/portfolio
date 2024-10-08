@@ -7,7 +7,7 @@
 }
 
 .page{
-  height: 4200px;
+  height: 4650px;
   width: 100%;
   margin-top: -10px;
   padding-top: 20px;
@@ -109,7 +109,7 @@ line-height: 2;
 @media (max-width: 480px) {
  .page{
   background-color: rgb(15, 13, 13);
-  height: 4150px;
+  height: 4240px;
   padding-bottom: 20px;
  }
 

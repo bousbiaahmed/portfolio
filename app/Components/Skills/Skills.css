@@ -1,45 +1,88 @@
-.MY {
-  margin-top: 130px;
+/* Styles globaux pour le composant Skills */
+body {
+  background-color: #1a1a1a; /* Couleur de fond sombre */
+  color: #ffffff; /* Couleur du texte par défaut */
+  font-family: 'Arial', sans-serif; /* Police du texte */
+}
+
+/* Titre principal */
+h1 {
+  font-weight: bold;
+}
+
+/* Styles pour les icônes de technologie */
+.tech-icons {
+  font-size: 3rem; /* Taille de l'icône */
+  color: #EAA16E; /* Couleur des icônes */
+  margin: 10px; /* Marge autour des icônes */
+  transition: transform 0.3s ease-in-out; /* Transition pour effet de zoom */
+  height: 150px;
+  width: 150px;
+  margin-top: 100px;
+  gap: 9px;
+}
+
+/* Effet de zoom au survol */
+.tech-icons:hover {
+  transform: scale(1.2); /* Augmenter la taille de l'icône au survol */
+}
+
+/* Styles pour le tooltip */
+.tooltip {
+  position: absolute; /* Positionnement absolu */
+  z-index: 10; /* Assure que le tooltip est au-dessus des autres éléments */
+  padding: 0.5rem 1rem; /* Espacement intérieur */
+  color: #CDCBD6; /* Couleur du texte du tooltip */
+  background-color: rgba(50, 50, 50, 0.8); /* Couleur de fond avec transparence */
+  border-radius: 0.5rem; /* Coins arrondis */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5); /* Ombre autour du tooltip */
+  font-size: 1.2rem; /* Taille de la police du tooltip */
+}
+
+/* Flèche du tooltip */
+.tooltip-arrow {
+  position: absolute;
+  bottom: 100%; /* Positionne la flèche au-dessus du tooltip */
+  left: 50%;
+  margin-left: -5px; /* Centre la flèche */
+  border-width: 5px; /* Taille de la flèche */
+  border-style: solid; /* Type de bordure */
+  border-color: transparent transparent rgba(50, 50, 50, 0.8) transparent; /* Couleur de la flèche */
+}
+
+/* Styles pour le conteneur du Skills */
+.flex {
+  display: flex; /* Affichage flex pour aligner les éléments */
+  justify-content: center; /* Centre les éléments horizontalement */
+  flex-wrap: wrap; /* Permet aux éléments de passer à la ligne */
+}
+.toolss{
+
+   margin-top: 150px;
   margin-left: 450px;
 }
-.imageGallery {
-  display: flex;
-  margin-top: 2%;
-  gap: 50px; /* Space between images */
-  justify-content: center;
-  cursor: pointer;
-  transition: transform 5s ease;
-  flex-wrap: wrap; /* To wrap images on smaller screens */
-  
-  
+.skills{
+  margin-left: 450px;
 }
-.imageh {
-  width: 140px; 
-  height: auto;
-  border-radius: 10px;
-  filter: drop-shadow(1px 1px 20px rgb(44, 103, 205));
-  transition: transform 0.7s ease-in-out;
-  }
-
 @media (max-width: 480px) {
-  .MY{
+
+  .skills{
     font-size: 25px;
     margin-left: 120px;
-    margin-top: 90px;
-    color: bisque;
-  }
-  .imageGallery{
-    margin-top: 50px;
-  }
-  .imageh{
-    margin-top: 50px;
-    margin-left: 20px;
-    filter: drop-shadow(1px 1px 20px rgb(227, 124, 21));
-    width: 80px; 
-    height: 80px;
+    margin-top: 200px;
     
-
   }
- 
+  .tech-icons{
+    height: 100px;
+    width: 100px;
+    gap: 10px;
+    margin: 10px;
+  }
+  .toolss{
+    font-size:25px ;
+    margin-left: 100px;
+    margin-top: 40px;
+  }
+
 
 }
